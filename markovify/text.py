@@ -38,7 +38,7 @@ class Text(object):
         """
         return " ".join(sentences)
 
-    word_split_pattern = re.compile(r"\s+")
+    word_split_pattern = ''
     def word_split(self, sentence):
         """
         Splits a sentence into a list of words.
